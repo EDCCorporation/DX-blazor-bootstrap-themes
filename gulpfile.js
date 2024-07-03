@@ -1,11 +1,7 @@
 var themes = [
-    "purple",
     "purple.v5",
-    "office-white",
     "office-white.v5",
-    "blazing-berry",
     "blazing-berry.v5",
-    "blazing-dark",
     "blazing-dark.v5"
 ];
 
