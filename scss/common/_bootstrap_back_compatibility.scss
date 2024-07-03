@@ -242,8 +242,8 @@ $custom-switch-indicator-size: subtract($custom-control-indicator-size, $custom-
         }
 
         &::after {
-            top: add(math.div($font-size-base * $line-height-base - $custom-control-indicator-size, 2), $custom-control-indicator-border-width * 2);
-            left: add(-($custom-switch-width + $custom-control-gutter), $custom-control-indicator-border-width * 2);
+            top: add(math.div($font-size-base * $line-height-base - $custom-control-indicator-size, 2), 1 * 2);
+            left: add(-($custom-switch-width + $custom-control-gutter), 1 * 2);
             width: $custom-switch-indicator-size;
             height: $custom-switch-indicator-size;
             background-color: $custom-control-indicator-border-color;
